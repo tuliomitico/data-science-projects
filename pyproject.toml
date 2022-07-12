@@ -6,9 +6,15 @@ authors = ["tuliomitico <tuliofc2008@hotmail.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.7,< 3.9"
+scikit-learn = "0.22.2"
+pandas=">=1.0.0,<1.0.3"
+numpy="1.18.5"
 
 [tool.poetry.dev-dependencies]
+notebook = ">5.7.10,<= 6.1.1"
 pytest = "~6"
+jedi = "~0.18"
+matplotlib = "3.1.3"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
