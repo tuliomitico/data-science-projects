@@ -7,6 +7,7 @@ Created on Wed Jul 13 12:06:36 2022
 import typing as t
 
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 
 def table_generator(data: t.Union[pd.DataFrame,np.ndarray]):
